@@ -59,8 +59,8 @@ a { text-decoration: none; color: inherit; }
 
 .hero-right { min-height:500px; position:relative; display:flex; align-items:center; justify-content:center; }
 .profile-circle { width:330px; height:330px; border-radius:50%; border:1px solid #d7c0eb; display:flex; align-items:center; justify-content:center; background:radial-gradient(circle,rgba(161,61,240,.15),rgba(161,61,240,.02)); }
-.profile-inner { width:235px; height:235px; border-radius:50%; background:var(--text); color:white; display:flex; align-items:center; justify-content:center; font-family:"Playfair Display",serif; font-size:70px; }
-.floating-card { position:absolute; background:white; border:1px solid var(--border); padding:18px 22px; box-shadow:0 15px 40px rgba(30,50,80,.1); }
+.profile-inner { width:235px; height:235px; border-radius:50%; background:var(--text); color:white; display:flex; align-items:center; justify-content:center; font-family:"Playfair Display",serif; font-size:70px; overflow:hidden; }
+.profile-inner img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; }
 .floating-card strong { display:block; color:var(--accent); font-size:26px; }
 .floating-card span { color:var(--muted); font-family:"DM Mono",monospace; font-size:10px; }
 .floating-card-one { top:75px; right:10px; }

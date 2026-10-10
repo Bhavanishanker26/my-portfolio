@@ -196,8 +196,10 @@ function App() {
 
         <div className="hero-right">
           <div className="profile-circle">
-            <div className="profile-inner">BS</div>
-          </div>
+  <div className="profile-inner">
+    <img src="/profile.jpg" alt="Bhavani Shanker" />
+  </div>
+</div>
 
           <div className="floating-card floating-card-one">
             <strong>15+</strong>
